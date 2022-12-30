@@ -1,0 +1,52 @@
+import turtle
+import random
+
+t = turtle.Turtle()
+t.speed(0)
+t.penup()
+t.goto(-200,200)
+t.pendown()
+t.goto(-200,-200)
+t.penup()
+t.goto(0,200)
+t.pendown()
+t.goto(0,-200)
+t.penup()
+t.goto(200,200)
+t.pendown()
+t.goto(200,-200)
+
+t1= turtle.Turtle()
+t1.shape("turtle")
+t1.penup()
+t1.goto(-218,185)
+t1.color("#fa0702")
+
+t2= turtle.Turtle()
+t2.shape("turtle")
+t2.penup()
+t2.goto(-218,78)
+t2.color("#faa702")
+
+t3= turtle.Turtle()
+t3.shape("turtle")
+t3.penup()
+t3.goto(-218,-56)
+t3.color("#03eeff")
+
+t4= turtle.Turtle()
+t4.shape("turtle")
+t4.penup()
+t4.goto(-218,-180)
+t4.color("#a702fa")
+
+t1.pendown()
+t1.forward(random.randint(0,400))
+t2.pendown()
+t2.forward(random.randint(0,400))
+t3.pendown()
+t3.forward(random.randint(0,400))
+t4.pendown()
+t4.forward(random.randint(0,400))
+
+turtle.done()
